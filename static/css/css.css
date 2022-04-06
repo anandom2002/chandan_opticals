@@ -305,7 +305,7 @@ h1{
 
 @media only screen and (max-width: 450px){
     body {
-        background-color: lightblue;
+        /* background-color: lightblue; */
       }
     .login_form{
         
