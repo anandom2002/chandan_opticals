@@ -18,8 +18,8 @@ app.get("/login",(req,res)=>{
 app.get("/stores",(req,res)=>{
     res.status(200).sendFile(path.join(__dirname+'/static/stores.html'));
 });
-app.get("/home_service",(req,res)=>{
-    res.status(200).sendFile(path.join(__dirname+'/static/home_service.html'));
+app.get("/about_us",(req,res)=>{
+    res.status(200).sendFile(path.join(__dirname+'/static/about_us.html'));
 });
 
 //PUG SPECIFIC STUF 

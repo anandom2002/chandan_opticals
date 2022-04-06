@@ -9,12 +9,13 @@
     border-radius: 10px;
     animation: color_changer 10s ease-in-out 0s;
 }
+
 @keyframes color_changer {
-    0%{color: rgb(32, 94, 3);}
-    25%{color: rgb(180, 2, 250);}
-    50%{color: rgb(255, 0, 149);}
-    75%{color: rgb(255, 30, 0);}
-    100%{color: rgb(0, 255, 76);}
+    0%{color: rgb(86, 248, 10);}
+    25%{color: rgb(185, 11, 248);}
+    50%{color: rgb(7, 5, 121);}
+    75%{color: rgb(7, 252, 129);}
+    100%{color: rgb(7, 238, 255);}
 }
 .grid-container {
     display: grid;
@@ -274,7 +275,12 @@ h1{
       .footer{
           grid-template-columns: auto auto auto;
       }
+      .login_form > input{
+        margin: 0px;
+        padding: 0px;
     }
+    }
+
 
 /* for login page */
 .login_form{
@@ -295,4 +301,20 @@ h1{
     color: #FFF;
     border-radius: 15px;
 
+}
+
+@media only screen and (max-width: 450px){
+    body {
+        background-color: lightblue;
+      }
+    .login_form{
+        
+        margin: 2% 3%;
+        /* border: 6px solid red; */
+    }
+}
+
+/* for about us page  */
+.part2>h1{
+    animation: color_changer 20s ease-in-out 0s;
 }
