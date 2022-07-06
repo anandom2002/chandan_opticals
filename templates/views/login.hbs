@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{>header}}
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    {{>navbar}}
+
+      <div class="title">this is login page</div>
+
+      <!-- Login form -->
+      <div class="lgr">
+            <a href="#"><button class="login_btn" style="background-color: #1d6dd6f6;">loign</button></a>
+            <a href="/register"><button class="regis_btn" style="background-color: #eaedf2f6;">register</button></a>
+        </div>
+      <form action="/login" method="post" class="login_form">
+        
+        <h1>LOGIN SYSTEM</h1>
+        username <input type="text" name="username" id="username" class="login_form username" placeholder="Enter user_name"><br>
+        password <input type="password" name="password" id="password" class="login_form password" placeholder="Enter password">
+        <input type="submit" value="Submit" class="login_form submit">
+      </form>
+      
+
+      <h1 class="brand">our brands</h1>
+      <div class="brand-container">
+        
+        <div class="brand" id="brand1"><img src="/brand1.jpg" alt="" style="width: 200px;height: 110px;"></div>
+        <div class="brand" id="brand2"><img src="/brand2.jpg" alt="" style="width: 200px;height: 110px;"></div>
+        <div class="brand" id="brand3"><img src="/brand3.jpg" alt="" style="width: 200px;height: 110px;"></div> 
+        <div class="brand" id="brand4"><img src="/brand4.jpg" alt="" style="width: 200px;height: 110px;"></div> 
+        <div class="brand" id="brand5"><img src="/brand5.jpg" alt="" style="width: 200px;height: 110px;"></div> 
+        <div class="brand" id="brand6"><img src="/brand6.jpg" alt="" style="width: 200px;height: 110px;"></div> 
+      </div>
+
+      <a href="https://api.whatsapp.com/send?phone=+919262207715&text=Hello " class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
+
+      <div class="footer">
+        <div class="option opt">store location</div>
+        <div class="option opt">about us</div>
+        <div class="option opt">term & condition</div>
+        <div class="option opt">cancellation & return</div>
+        <div class="option opt">privacy policy</div>
+        <div class="option opt">faqs</div>
+        <div class="option opt">customer care</div>
+        
+      </div>
+      <div class="brand-name" style="font-size: 27px;">chandan optical's</div>
+      <div class="social-media">
+        <a href="https://instagram.com/anand_om_?utm_medium=copy_link"><i class="fa fa-instagram sicon insta"  arial-hidden="true" style="font-size:30px;;"></i></a>
+        <a href="#"><i class="fa fa-facebook-square sicon fb" style="font-size:30px; "></i></a>
+        <a href="#"><i class="fa fa-twitter sicon twitter" style="font-size:30px;"></i></a>
+          
+          
+      </div>
+      
+        <div  id="call">call us : 6201543209</div>
+        <div  id="cpr">copyright_icon<i class='far fa-copyright'></i> 2021 chandan opticals .</div>
+
+      
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

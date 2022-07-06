@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   {{>header}}
+  </head>
+  <body>
+    {{>navbar}}
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/slide1.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/slide2.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/slide3.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <div class="title">this is stores page</div>
+
+      <div class="grid-container">
+          <div class="items" id="item1"style="padding-top: 0px;"><img src="/banner1.jpeg" alt="" style="width: 200px;height: 110px;"></div>
+          <div class="items" id="item2" style="padding-top: 0px;" ><img src="/banner2.jpeg" alt="" style="width: 200px;height: 110px;"></div>
+          <div class="items" id="item3" style="padding-top: 0px;" ><img src="/banner3.jpeg" alt="" style="width: 200px;height: 110px;"></div>  
+      </div>
+
+      <h1 class="brand">our brands</h1>
+      <div class="brand-container">
+        
+        <div class="brand" id="brand1"><img src="/brand1.jpg" alt="" style="width: 200px;height: 110px;"></div>
+        <div class="brand" id="brand2"><img src="/brand2.jpg" alt="" style="width: 200px;height: 110px;"></div>
+        <div class="brand" id="brand3"><img src="/brand3.jpg" alt="" style="width: 200px;height: 110px;"></div> 
+        <div class="brand" id="brand4"><img src="/brand4.jpg" alt="" style="width: 200px;height: 110px;"></div> 
+        <div class="brand" id="brand5"><img src="/brand5.jpg" alt="" style="width: 200px;height: 110px;"></div> 
+        <div class="brand" id="brand6"><img src="/brand6.jpg" alt="" style="width: 200px;height: 110px;"></div> 
+      </div>
+
+     {{>footer}}
+  </body>
+</html>
